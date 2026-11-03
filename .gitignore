@@ -1,0 +1,20 @@
+# Authors' data and paper (download from osf.io/nkemg)
+upstream/
+
+# R project library
+Rlib/
+
+# Generated outputs (rerun scripts to rebuild)
+scripts/*.RDS
+scripts/*.log
+share/*.zip
+
+# Private notes and email drafts
+EMAIL_*.md
+REPLY_PLAYBOOK.md
+
+# OS
+.DS_Store
+
+# Author-facing copy (same content as the root)
+share/
